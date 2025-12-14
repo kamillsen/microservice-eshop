@@ -313,3 +313,5 @@ Bu pattern, veritabanı işlemi ile mesaj gönderiminin atomik olmasını sağla
 ---
 
 *Son güncelleme: Aralık 2024*
+
+
