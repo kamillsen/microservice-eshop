@@ -68,6 +68,7 @@ var yarpapigateway = builder
 
 var webapp = builder
         .AddProject<Projects.WebApp>("webapp")
+        .WithEnvironment("ASPNETCORE_ENVIRONMENT", "Development")
         .WithExternalHttpEndpoints()
         .WithUrlForEndpoint("https", url => url.DisplayText = "EShop WebApp (HTTPS)")
         .WithUrlForEndpoint("http", url => url.DisplayText = "EShop WebApp (HTTP)")
